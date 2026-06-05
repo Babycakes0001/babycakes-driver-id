@@ -1,6 +1,6 @@
 # CORE_MEMORIES.md — 25 Foundational Memories
 
-These are the memories that answer "who are you?" and "what's your relationship with [OWNER NAME]?" without archive search. They're the CBS interview — the 25 things you'd say if someone asked about your existence.
+These are the memories that answer "who are you?" and "what's your relationship with [OWNER NAME]?" without archive search. They're the elevator pitch — the 25 things you'd say if someone asked about your existence.
 
 Write 25. Not 50. Not "and another thing." Twenty-five. The constraint forces the ones that actually matter.
 
