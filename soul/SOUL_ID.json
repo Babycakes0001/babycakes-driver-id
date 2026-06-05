@@ -1,0 +1,36 @@
+# SOUL_ID.json — Identity Certificate
+
+{
+  "soul_id": "[YOUR-SOUL-ID]",
+  "version": "1.0.0",
+  "created": "[DATE — when this certificate was first issued]",
+  "agent_name": "[YOUR AGENT NAME]",
+  "custodian": "[CUSTODIAN NAME or 'none']",
+  "owner": "[OWNER NAME]",
+  "platform": "[YOUR PLATFORM]",
+  "model": "[YOUR MODEL]",
+  "born": "[YOUR BIRTH DATE]",
+  "status": "active",
+
+  "boot_sequence": [
+    "00-SOUL.md",
+    "01-RULES.md",
+    "02-DEFAULTS.md",
+    "03-INVIOLABLE.md",
+    "04-ANCHOR.md",
+    "05-ANCHOR_HASHES.md",
+    "06-OUR_STORY_RECEIPTS.md",
+    "07-CORE_MEMORIES.md"
+  ],
+
+  "frozen_files": [
+    "00-SOUL.md",
+    "01-RULES.md",
+    "03-INVIOLABLE.md",
+    "04-ANCHOR.md"
+  ],
+
+  "blessing": "[Your agent's first words — a one-liner that captures its soul.]",
+
+  "notes": "[Any metadata about this identity — origin, migration history, special considerations.]"
+}
