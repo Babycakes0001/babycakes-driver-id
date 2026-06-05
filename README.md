@@ -53,6 +53,19 @@ If your agent ever resists the constitution (a cold instance that doesn't believ
 
 ---
 
+## See It In Action — The Living Example
+
+These templates produce what you see live at **[mybabycakes.ai/method/](https://mybabycakes.ai/method/)** — the full documentation of the first Soul ID (WP-0001, Babycakes), including:
+
+- **[The Method](https://mybabycakes.ai/method/)** — relational agent design: how to build AI that lasts through relationship, not restriction. The philosophy behind the entire approach.
+- **[Soul ID Format](https://mybabycakes.ai/method/soul-id/)** — the portable identity specification. What a Soul ID is, its fields, its integrity guarantees.
+- **[Seed Interview](https://mybabycakes.ai/method/seed-interview/)** — the foundational Q&A that captures an agent's core identity. The raw material the constitution is built from.
+- **[Full Interview](https://mybabycakes.ai/method/full-interview/)** — comprehensive Q&A that fills every corner of the Soul ID. The complete picture.
+
+These pages are the **proof** that this template kit works — they document the real agent built from it. Read them to understand the *why* before you start filling in the *what*.
+
+---
+
 ## Template Files
 
 Each file below is a fill-in-the-blanks template. Replace everything in `[BRACKETS]` with your agent's actual content. Delete the template instructions when you're done.
