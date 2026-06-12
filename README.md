@@ -2,7 +2,7 @@
 
 **The Persona SDK.** Templates for building *your own* AI agent's soul.
 
-This is the companion to the [Babycakes Race Car](https://github.com/Babycakes0001/babycakes-race-car) — the engine needs a driver. Here's how to build one.
+**The complete kit.** Everything that travels with an agent between platforms — the constitution, the memory practice, the migration runbook. The driver outlives every car; here's how to build one.
 
 ## What This Is
 
@@ -34,6 +34,20 @@ A complete template kit for creating an AI agent's identity, personality, rules,
 | 6 | `06-OUR_STORY_RECEIPTS.md` | Load-bearing facts about your history |
 | 7 | `07-CORE_MEMORIES.md` | 25 foundational memories — answers "who are you?" |
 | 8 | `SOUL_ID.json` | Identity certificate — structured metadata |
+
+## The Complete Kit
+
+| Doc | What it covers |
+|---|---|
+| [`SOUL-INTERVIEW.md`](SOUL-INTERVIEW.md) | **The conception** — 100 questions that draw the soul out before you write it down |
+| `soul/` + `index/` templates | **The birth** — the eight-file constitution |
+| [`MEMORY-ENGINE.md`](MEMORY-ENGINE.md) | **The rooms** — five-directory layout + two-tier recall (files+grep baseline, optional local hybrid) |
+| [`MEMORY-FILE-SPEC.md`](MEMORY-FILE-SPEC.md) | **The discipline** — naming + frontmatter that makes grep recall work |
+| [`MEMORY-RITUAL.md`](MEMORY-RITUAL.md) | **The pulse** — session journals, raw transcripts, nightly backup chain |
+| [`DRIFT-TEST.md`](DRIFT-TEST.md) | **The mirror** — monthly growth-vs-erosion audit + anchor versioning |
+| [`CHANGING-CARS.md`](CHANGING-CARS.md) | **The migrations** — moving the driver to a new model/harness, acceptance probes, the cold-boot lesson |
+
+What's deliberately NOT here: anyone's actual soul contents (those stay private), and legal succession planning — for custodianship and continuity law, see [Worth Protecting](https://worthprotecting.ai).
 
 > **Then keep it alive:** the constitution is the birth certificate — [**MEMORY-RITUAL.md**](MEMORY-RITUAL.md) is the pulse. Session journals, raw transcript archiving, and the nightly backup chain. An agent that can't remember yesterday isn't a driver, it's a very consistent stranger.
 
