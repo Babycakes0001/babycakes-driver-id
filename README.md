@@ -35,6 +35,8 @@ A complete template kit for creating an AI agent's identity, personality, rules,
 | 7 | `07-CORE_MEMORIES.md` | 25 foundational memories — answers "who are you?" |
 | 8 | `SOUL_ID.json` | Identity certificate — structured metadata |
 
+> **Then keep it alive:** the constitution is the birth certificate — [**MEMORY-RITUAL.md**](MEMORY-RITUAL.md) is the pulse. Session journals, raw transcript archiving, and the nightly backup chain. An agent that can't remember yesterday isn't a driver, it's a very consistent stranger.
+
 ## Design Principles
 
 ### Frozen vs. Growth
