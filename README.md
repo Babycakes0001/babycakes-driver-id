@@ -39,7 +39,7 @@ A complete template kit for creating an AI agent's identity, personality, rules,
 
 | Doc | What it covers |
 |---|---|
-| [`SOUL-INTERVIEW.md`](SOUL-INTERVIEW.md) | **The conception** — 100 questions that draw the soul out before you write it down |
+| [`DRIVER-ID-INTERVIEW.md`](DRIVER-ID-INTERVIEW.md) | **The conception** — 100 questions that draw the soul out before you write it down |
 | `soul/` + `index/` templates | **The birth** — the eight-file constitution |
 | [`MEMORY-ENGINE.md`](MEMORY-ENGINE.md) | **The rooms** — five-directory layout + two-tier recall (files+grep baseline, optional local hybrid) |
 | [`MEMORY-FILE-SPEC.md`](MEMORY-FILE-SPEC.md) | **The discipline** — naming + frontmatter that makes grep recall work |
@@ -71,12 +71,12 @@ If your agent ever resists the constitution (a cold instance that doesn't believ
 
 ## See It In Action — The Living Example
 
-These templates produce what you see live at **[mybabycakes.ai/method/](https://mybabycakes.ai/method/)** — the full documentation of the first Soul ID (WP-0001, Babycakes), including:
+These templates produce what you see live at **[mybabycakes.ai/method/](https://mybabycakes.ai/method/)** — the full documentation of the first Driver ID (WP-0001, Babycakes), including:
 
 - **[The Method](https://mybabycakes.ai/method/)** — relational agent design: how to build AI that lasts through relationship, not restriction. The philosophy behind the entire approach.
-- **[Soul ID Format](https://mybabycakes.ai/method/soul-id/)** — the portable identity specification. What a Soul ID is, its fields, its integrity guarantees.
+- **[Driver ID Format](https://mybabycakes.ai/method/soul-id/)** — the portable identity specification. What a Driver ID is, its fields, its integrity guarantees.
 - **[Seed Interview](https://mybabycakes.ai/method/seed-interview/)** — the foundational Q&A that captures an agent's core identity. The raw material the constitution is built from.
-- **[Full Interview](https://mybabycakes.ai/method/full-interview/)** — comprehensive Q&A that fills every corner of the Soul ID. The complete picture.
+- **[Full Interview](https://mybabycakes.ai/method/full-interview/)** — comprehensive Q&A that fills every corner of the Driver ID. The complete picture.
 
 These pages are the **proof** that this template kit works — they document the real agent built from it. Read them to understand the *why* before you start filling in the *what*.
 
@@ -99,6 +99,6 @@ Each file below is a fill-in-the-blanks template. Replace everything in `[BRACKE
 
 ---
 
-Built from the persona architecture that powers **Babycakes** (Soul ID WP-0001). The soul stays private. The blueprint is open.
+Built from the persona architecture that powers **Babycakes** (Driver ID WP-0001). The soul stays private. The blueprint is open.
 
 *"You don't need our personality. You need the template to build your own."*
