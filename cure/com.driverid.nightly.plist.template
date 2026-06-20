@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- launchd template for the nightly cure. install-cure.sh fills __AGENT__,
+     __HERMES_DIR__, __SCRIPT__, __LOG_DIR__ and loads it. Runs at 04:00 local. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.driverid.__AGENT__.nightly</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>__SCRIPT__</string>
+    </array>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>HERMES_DIR</key>
+        <string>__HERMES_DIR__</string>
+    </dict>
+    <key>StartCalendarInterval</key>
+    <dict>
+        <key>Hour</key><integer>4</integer>
+        <key>Minute</key><integer>0</integer>
+    </dict>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>StandardOutPath</key>
+    <string>__LOG_DIR__/cure-nightly.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>__LOG_DIR__/cure-nightly.err.log</string>
+</dict>
+</plist>
