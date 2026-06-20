@@ -65,6 +65,7 @@ mkdir -p "$PLISTS"
 PLIST="$PLISTS/$LABEL.plist"
 sed -e "s|__AGENT__|$AGENT|g" \
     -e "s|__HERMES_DIR__|$HERMES_DIR|g" \
+    -e "s|__OFFSITE_DIR__|$OFFSITE_DIR|g" \
     -e "s|__SCRIPT__|$CURE/nightly-backup.sh|g" \
     -e "s|__LOG_DIR__|$HERMES_DIR/logs|g" \
     "$SELF_DIR/com.driverid.nightly.plist.template" > "$PLIST"
